@@ -19,7 +19,7 @@ module shift_reg_tb;
         s_en = 0;
         $display("t: (D | Q | shift enable | shift in | shift out)");
         $display("%0d: (%b | %b | %b | %b | %b)", $time, p_in, Q, s_en, s_in, s_out);
-        #10;
+        #11;
         
         // parallel load test
         p_in = 4'b1010;
